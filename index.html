@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Collection</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Media Collection</h1>
+        <p class="subtitle">Explore Our Audio & Video Gallery</p>
+    </div>
+
+    <nav class="filter-nav">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="audio">Audio</button>
+        <button class="filter-btn" data-filter="video">Video</button>
+    </nav>
+
+    <div class="container">
+        <!-- Audio Files -->
+        <div class="file audio-file">
+            <div class="file-header">
+                <i class="fas fa-music"></i>
+                <h3>Audio 1</h3>
+            </div>
+            <audio controls>
+                <source src="https://www.computerhope.com/jargon/m/example.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="file-info">
+                <span class="duration">Audio File</span>
+                <span class="file-type">MP3</span>
+            </div>
+        </div>
+
+        <div class="file audio-file">
+            <div class="file-header">
+                <i class="fas fa-music"></i>
+                <h3>Audio 2</h3>
+            </div>
+            <audio controls>
+                <source src="https://media.geeksforgeeks.org/wp-content/uploads/20220913101124/audiosample.ogg" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="file-info">
+                <span class="duration">Audio File</span>
+                <span class="file-type">MP3</span>
+            </div>
+        </div>
+
+        <div class="file audio-file">
+            <div class="file-header">
+                <i class="fas fa-music"></i>
+                <h3>Audio 3</h3>
+            </div>
+            <audio controls>
+                <source src="https://media.geeksforgeeks.org/wp-content/uploads/20230524142525/gfg_offline_classes_en.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <div class="file-info">
+                <span class="duration">Audio File</span>
+                <span class="file-type">MP3</span>
+            </div>
+        </div>
+
+        <!-- Video Files -->
+        <div class="file video-file">
+            <div class="file-header">
+                <i class="fas fa-film"></i>
+                <h3>Video 1</h3>
+            </div>
+            <video controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <div class="file-info">
+                <span class="duration">Video File</span>
+                <span class="file-type">MP4</span>
+            </div>
+        </div>
+
+        <div class="file video-file">
+            <div class="file-header">
+                <i class="fas fa-film"></i>
+                <h3>Video 2</h3>
+            </div>
+            <video controls>
+                <source src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <div class="file-info">
+                <span class="duration">Video File</span>
+                <span class="file-type">MP4</span>
+            </div>
+        </div>
+
+        <div class="file video-file">
+            <div class="file-header">
+                <i class="fas fa-film"></i>
+                <h3>Video 3</h3>
+            </div>
+            <video controls>
+                <source src="3.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+            <div class="file-info">
+                <span class="duration">Video File</span>
+                <span class="file-type">MP4</span>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Media Collection. All rights reserved.</p>
+    </footer>
+</body>
+</html>
