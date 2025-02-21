@@ -5,7 +5,6 @@
 Welcome to my practice websites repository! This repository showcases various web projects that I have created to enhance my skills in web development using **HTML**, **Tailwind CSS**, and **JavaScript**. Each project demonstrates different aspects of web design and functionality, allowing me to experiment with various features and techniques.
 
 ## Table of Contents
-
 - [Technologies Used](#technologies-used)
 - [Projects](#projects)
 - [Getting Started](#getting-started)
