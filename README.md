@@ -18,7 +18,6 @@ Welcome to my practice websites repository! This repository showcases various we
 - **JavaScript**: A programming language that enables interactive web pages and enhances user experience.
 
 ## Projects
-
 Here are some of the projects included in this repository:
 
 1. **Responsive Portfolio Website**
